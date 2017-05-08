@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  scope(path: 'api') do
+  scope({path: 'api'}) do
     resources :cocktails
   end
   # The priority is based upon order of creation: first created -> highest priority.
